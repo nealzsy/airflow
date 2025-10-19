@@ -1,0 +1,77 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.env
+*.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache/
+.pytest_cache/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+jupyter_notebook_config.py
+*.nbconvert.ipynb
+
+# -------------------------
+# Data / models (optional)
+# -------------------------
+data/
+datasets/
+models/
+outputs/
+checkpoints/
+
+# -------------------------
+# Others (optional)
+# -------------------------
+# Ignore large binary files (e.g., model weights)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Environment & dependency files backup
+Pipfile.lock
+poetry.lock
