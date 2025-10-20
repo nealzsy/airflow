@@ -3,7 +3,7 @@ import datetime
 import pendulum
 
 
-with models.DAG(
+with DAG(
     dag_id="example_complex",
     schedule_interval=None,
     start_date=pendulum.datetime(2023, 3, 1, tz="Asia/Seoul"),
