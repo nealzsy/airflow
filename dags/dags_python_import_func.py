@@ -13,8 +13,8 @@ with DAG(
 ) as dag:
 
     def print_env():
-    print("WORKSPACE_FOLDER =", os.getenv("WORKSPACE_FOLDER"))
-    print("PYTHONPATH =", os.getenv("PYTHONPATH"))
+        print("WORKSPACE_FOLDER =", os.getenv("WORKSPACE_FOLDER"))
+        print("PYTHONPATH =", os.getenv("PYTHONPATH"))
 
     print_env_task = PythonOperator(
         task_id="print_env_task",
