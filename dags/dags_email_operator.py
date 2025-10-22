@@ -1,6 +1,6 @@
 from airflow.sdk import DAG
 import pendulum
-from airflow.providers.standard.operators.email import EmailOperator
+from airflow.providers.smtp.operators.smtp import EmailOperator
 
 with DAG(
     dag_id="dags_email_operator",
