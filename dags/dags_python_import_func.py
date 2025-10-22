@@ -19,11 +19,10 @@ with DAG(
     print_env_task = PythonOperator(
         task_id="print_env_task",
         python_callable=print_env,
-        dag=dag
     )
     task_get_sftp = PythonOperator(
         task_id="task_get_sftp",
-        ptyhon_callable=get_sftp
+        python_callable=get_sftp,
     )
 
 
